@@ -1,0 +1,95 @@
+* { margin: 0px; padding: 0px; }
+h1, h2, h3, h4, h5, h6, p, ul { margin: 0px; padding: 0px; }
+header { padding: 15px 0px; }
+.info { display: flex; align-items: center; margin-left: 30px; }
+.icon { font-size: 20px; color: rgb(246, 145, 101); margin-right: 10px; }
+.content { }
+.content h4 { font-size: 13px; }
+.content p { font-size: 9px; }
+.main_menu { background-color: rgb(0, 204, 225); }
+.btn-appoint { background-color: rgb(246, 145, 101); border-radius: 0px; color: rgb(255, 255, 255); text-transform: uppercase; font-weight: 500; padding: 15px 20px; clip-path: polygon(10% 1%, 100% 0%, 90% 100%, 0% 100%); transition: .4s all ease-in-out; }
+.btn-appoint i { margin-right: 5px; }
+.btn-appoint:hover { background-color: rgb(246, 145, 101);clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%); color: #fff; }
+.nav-link { color: rgb(255, 255, 255); text-transform: uppercase; position: relative; padding: 0px !important; }
+.nav-link::before {content: "";position: absolute;left: 0px;bottom: -16px;height: 4px;width: 0px;background-color: rgb(246, 145, 101);transition: all 0.4s ease-in-out 0s;}
+.nav-link:hover { color: rgb(255, 255, 255); }
+.nav-link:hover::before { width: 100%; }
+.nav-item { padding: 0px 15px; }
+.banner{
+background-image: url(../images/banner.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 80vh;
+position: relative;
+}
+.banner h2{
+
+background: #00cce1;
+
+color: #fff;
+
+text-transform: uppercase;
+
+display: inline-block;
+
+padding: 0 10px;
+}
+.banner h1{
+
+text-transform: uppercase;
+
+background: #f69165;
+
+color: #fff;
+
+margin-top: 15px;
+
+/* display: flex; */
+
+display: inline-block;
+
+margin-bottom: 15px;
+
+padding: 0 10px;
+}
+.btn-learn{
+
+background: #f69165;
+
+border-radius: 0;
+
+color: #fff;
+
+text-transform: uppercase;
+}
+.btn-book{
+
+background: #00cce1;
+
+border-radius: 0;
+
+color: #fff;
+
+text-transform: uppercase;
+}
+.height{
+    min-height: 80vh;
+    align-items: center;
+}
+.btn-learn:hover{
+    background: #f69165;
+    color: black;
+}
+.btn-book:hover{
+    background: #00cce1;
+    color: black;
+}
+.banner p{
+    margin-bottom: 15px;
+}
+.img{
+    position: absolute;
+    bottom: 0;
+    width: 42%;
+}
